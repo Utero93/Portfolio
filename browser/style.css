@@ -44,12 +44,14 @@ nav button {
     padding: 15px;
 }
 
+/* header a {
+    display: ;
+} */
+
 .frame p {
     text-align: center;
 }
-.frame img {
-    width: 100%;
-}
+
 
 /* #contact.frame {
     border-style: dashed;
