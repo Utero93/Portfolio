@@ -1,33 +1,26 @@
 body {
-background-color: #0D0208;
-font-family: Arial, Helvetica, sans-serif;
-box-sizing: border-box;
+    border: 3px solid #00FF41;
+    background-color: #0D0208;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    height: 400px;
-    width: 350px;
+ body header img {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: 250px;
     margin: 0 auto;
-    border-style: dotted;
-    border: 3px #00FF41 solid;  
-}
-
-header img {
-    height: 380px;
-    width: 350px;
-    margin: 0 auto;
-    border-style: dotted;
-    border: 3px #00FF41 solid;  
+    border: 3px solid #00FF41;
 }
 
 nav {
+    border: 3px solid #00FF41;
     display: flex;
-    justify-content: space-around;
-    background-color: #0D0208;
-    border-style: dotted;
-    height: 250px;
-    
-}
+    justify-content: center;
+    margin: 0 auto;
+    height: 100px;
+  }
+
 nav button {
     color: #00FF41;
     display: flex;
@@ -36,80 +29,74 @@ nav button {
 }
 
 .frame {
-    border-style: solid;
-    border-width: 2px;
+    border: 2px solid #00FF41;
 }
 
-.frame header {
-    padding: 15px;
+footer {
+    height: 100px
 }
 
-/* header a {
-    display: ;
-} */
+.frame #about {
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    height: 80px; 
+    color: #00FF41;
+}
+
 
 .frame p {
     text-align: center;
+    border: 1px solid blue;
+    color: #00FF41;
+    height: 100px;
+}
+.frame #work {
+    display: block;
+    justify-content: center;
+    border: 2px solid #00FF41;
+    height: 80px;
+    color: #00FF41;
+}
+
+#work {
+    text-align: center;
+}
+
+.div-img{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding-top:20%;
+}
+img{
+    transition: transform .2s;
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid #00FF41;
+}
+img:hover{
+    transform:scale(2.5);
 }
 
 
-/* #contact.frame {
-    border-style: dashed;
-} */
-/* .frame {
+.frame #contact {
     display: flex;
     justify-content: space-around;
-    color: white;
-    border-style: dotted;
-    height: 250px;
-} */
-
-/* .brick {
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    border-style: dotted;
-    height: 60%;
-    width: 60%;
-   
-} */
-
-/* .brick a {
-    border-style: 5px white dashed;
-    height: 150px;
-    width: 150px;
-    display: flex;
-    margin: 0 auto;
-}  */
-
-
-
-#aboutme {
-    display: flex;
-    justify-content: space-around;
-    color:blue;
-    border-style: dotted;
-    height: 10%;
-}
-
-#mywork {
-    display: flex;
-    justify-content: space-around;
-    color:blue;
-    border-style: dotted;
-    height: 10%;
+    border: 2px solid red;
+    height: 200px; 
+    color: #00FF41;
 }
 
 #contact {
-    display: flex;
-    justify-content: space-around;
-    color:blue;
-    border-style: dotted;
-    height: 10%;
+    height: 100px;
 }
 
 
-/* Tablets - header changes color */
+/* Tablets - background changes color img changes size*/
 @media screen and (max-width: 992px) {
     nav {
       background: #00FF41;
@@ -122,16 +109,16 @@ nav button {
     }
   }
   
-  /* Large smartphones - navbar changes color */
+  /* Large smartphones - navbar changes background-color */
   @media screen and (max-width: 768px) {
     nav {
       background-color: #00FF41;
     }
   }
   
-  /* Small smartphones - image placeholders change color */
+  /* Small smartphones - header changes background-color */
   @media screen and (max-width: 576px) {
     header {
-      background-color: #0D0208;
+      background-color: #00FF41;
     }
   }
