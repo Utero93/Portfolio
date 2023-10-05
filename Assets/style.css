@@ -51,6 +51,11 @@ footer {
     color: #00FF41;
     height: 100px;
 }
+
+.frame h1 {
+    text-align: center;
+    color: #00FF41;
+}
 .frame #work {
     display: block;
     justify-content: center;
