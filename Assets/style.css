@@ -12,7 +12,7 @@ body {
 }
 
 .button-list {
-    background-color: rgba(122, 174, 96, 0.35);
+    background-color: rgba(124, 182, 95, 0.35);
     display: flex;
     justify-content: space-around;
     align-items: center;
